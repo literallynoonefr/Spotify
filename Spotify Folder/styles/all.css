@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: GothamMedium_1;
+}
+
+@font-face {
+    font-family: GothamMedium_1;
+    src: url(../Assets/Fonte/GothamMedium_1.ttf);
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 22%, rgba(112, 17, 52, 0.763) 100%);
+    /* https://cssgradient.io/ */
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav a{
+    text-decoration: none;
+    margin: 20px 15px;
+    color: rgba(235, 227, 227, 0.722);
+    padding: 5px;
+}
+
+header nav a:hover{
+    border-bottom: 2px solid #1ed760;
+    color: white;
+}
+
+main{
+    display: flex;
+}
+
+#side_canvas{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 22%, rgba(52, 8, 24, 0.763) 100%);
+    width: 250px;
+    height: 100vh;
+    padding: 10px;
+    margin-right: 50px;
+    /* position: absolute;
+    top: 0%; */
+}
+
+/* #espaco{
+    width: 500px;
+    height: 100vh;
+} */
+
+hr{
+    width: 170px;
+    margin: 10px;
+}
+
+#search_box{
+    margin: 10px;    
+}
+
+#side_canvas img{
+    width: 14%;
+    margin-left: 10px;
+}
+
+#side_canvas h3{
+    padding: 10px;
+    color: rgba(235, 227, 227, 0.722);
+}
+
+#side_canvas h3:hover{
+    cursor: pointer;
+    color: #1db954;
+}
+
+#user_music{
+    margin-bottom: 650px;
+}
+
+#installer{
+    display: flex;
+}
+
+#installer img{
+    cursor: pointer;
+    color: #1db954;
+}
+
+
+#installer_icon:hover{
+/*  setattribute
+    2 funções
+    mouse enter verde / mouse out branco
+*/
+}
